@@ -9,11 +9,11 @@ class CustomerView(View):
         Frame.__init__(self, master)
         self.controller = None
         self.label = Label(self)
-        self.buttonDeposit = Button(self, text="MAKE A DEPOSIT")
-        self.buttonWithdraw = Button(self, text="MAKE A WITHDRAW")
-        self.buttonBalance = Button(self, text="SHOW MY BALANCE")
-        self.buttonDelete = Button(self, text="DELETE MY ACCOUNT")
-        self.buttonDisconnect = Button(self, text="DISCONNECT")
+        self.buttonDeposit = Button(self, text="MAKE A DEPOSIT",bg="#0F9DB0")
+        self.buttonWithdraw = Button(self, text="MAKE A WITHDRAW",bg="#0F9DB0")
+        self.buttonBalance = Button(self, text="SHOW MY BALANCE",bg="#0F9DB0")
+        self.buttonDelete = Button(self, text="DELETE MY ACCOUNT",bg="#0F9DB0")
+        self.buttonDisconnect = Button(self, text="DISCONNECT",bg="red")
 
     def placeElements(self):
         self.master.title("Customer")

@@ -8,9 +8,9 @@ class AdminView(View):
     def __init__(self, master):
         Frame.__init__(self, master)
         self.controller = None
-        self.buttonShowAccounts = Button(self, text="Show Customers")
-        self.buttonAddCustomer = Button(self, text="Add Customer")
-        self.buttonDeleteAccount = Button(self, text="Delete Customer")
+        self.buttonShowAccounts = Button(self, text="Show Customers",bg="#0F9DB0")
+        self.buttonAddCustomer = Button(self, text="Add Customer",bg="#0F9DB0")
+        self.buttonDeleteAccount = Button(self, text="Delete Customer",bg="#0F9DB0")
 
     def placeElements(self):
         self.master.title("Admin Page")
