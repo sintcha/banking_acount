@@ -24,3 +24,21 @@ Mot de passe : Alice
 
 /!\ N'oubliez pas les majuscules et de vous mettre en AdminMode.
 
+
+____________________
+Méthodes implantées :
+
+Une fois en mode administrateur, on peut ajouter un nouveau client :
+Voir l'ensemble des clients
+Supprimer un client
+
+En se connectant avec les identifiants des administrateurs (sans le mode Admin activé), les administrateurs se comportent comme des clients. On peut donc ajouter, retirer, consulter et supprimer son compte.
+
+____________________
+Non fonctionnel :
+
+Enregistrement d'un nouveau client,
+Supression son compte,
+se déconnecter en ligne,
+sonsulter son solde.
+
