@@ -1,3 +1,5 @@
+#Sachez que si vous voyez des modifications dans le code c'est juste pour des tests
+
 from tkinter import *
 from tkinter.font import nametofont
 
